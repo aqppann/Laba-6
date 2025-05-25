@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Фільтрація та сортування</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="filters">
+    <input type="text" id="search" placeholder="Пошук..." />
+    <select id="sortBy">
+      <option value="name">Сортувати: Назва</option>
+      <option value="priceAsc">Сортувати: Зростання цін</option>
+      <option value="priceDesc">Сортувати: Спадання цін</option>
+    </select>
+    <button id="resetFilters">Скинути фільтри</button>
+  </div>
+  <div id="items-container" class="items"></div>
+  <script src="script.js"></script>
+</body>
+</html>
