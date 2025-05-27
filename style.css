@@ -1,4 +1,4 @@
-/* Загальні стилі */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f0f2f5;
@@ -7,7 +7,6 @@ body {
   padding: 20px;
 }
 
-/* Панель фільтрів */
 .filters {
   display: flex;
   flex-wrap: wrap;
